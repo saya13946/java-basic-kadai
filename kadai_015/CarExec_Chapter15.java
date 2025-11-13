@@ -1,13 +1,13 @@
-package text.kadai_015;
+package kadai_015;
 
 public class CarExec_Chapter15 {
 	public static void main(String[] args) {
 		
-		Car_Chapter15 getSpeed = new Car_Chapter15(1);
+		Car_Chapter15 car = new Car_Chapter15();
 		
-		getSpeed.changeGear(3);
+		car.changeGear(3);
 		
-		getSpeed.run();
+		car.run();
 
 	}
 
